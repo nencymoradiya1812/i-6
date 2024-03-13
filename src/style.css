@@ -1,41 +1,106 @@
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-image: url("https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-32925.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 input:nth-child(1) {
   margin-top: 35%;
 }
 .form{
                 margin: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 }
 
 form {
   text-align: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 30px;
   height: 350px;
-  background: rgb(20, 70, 114);
-  width: 300px;
+  background:  rgb(27, 120, 143);
+  width: 400px;
   color: aliceblue;
   font-size: 16px;
   font-weight: 600;
   padding-top: 50px;
+  border-radius: 20px;
+  border: 2px solid aliceblue;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 input[type="submit"] {
                 margin-right: 10px;
-                color:  rgb(20, 70, 114);
+                color:  rgb(27, 120, 143);
                 background-color:aliceblue;
                 border: none;
                 padding: 8px;
                 width: 80px;
+                font-size: 16px;
+                font-weight: 700;
+                margin-top: 40px;
+}
+input{
+                padding: 8px;
+                width: 180px;
+                color:  rgb(27, 120, 143);
 }
 input[type="reset"] {
-                color:  rgb(20, 70, 114);
+                color:  rgb(27, 120, 143);
                 background-color:aliceblue;
                 border: none;
                 padding: 8px;
                 width: 80px;
+                font-size: 16px;
+                font-weight: 700;
+}
+input[type="number"] {
+            margin-left: 8px;
+}
+textarea{
+                margin-right: 30px;
+                color:rgb(27, 120, 143); ;
+    }
+
+.add-review{
+  font-size: 20px;
+   font-weight: 700;
+   height: 50px;
+   background-color: aliceblue;
+   color:  rgb(27, 120, 143);;
+   border-radius: 10px;
+   border: 3px solid  rgb(27, 120, 143);;
+   margin: 20px;
+}
+.add-review h2{
+                margin-top: 5px;
+}
+.show-review{
+                font-size: 20px;
+                font-weight: 700;
+                height: 50px;
+                background-color: aliceblue;
+                color:  rgb(27, 120, 143);;
+                border-radius: 10px;
+                border: 3px solid  rgb(27, 120, 143);;
+                margin: 20px;    
+                margin-top: 40px;   
+}
+.show-review h2{
+                margin-top: 5px;        
+}
+.dec-lable{
+                padding-bottom: 10px;
+}
+.main{
+   background-color: aliceblue;
+   color:  rgb(27, 120, 143);;
+   border-radius: 10px;
+   border: 3px solid  rgb(27, 120, 143);
+   margin:20px;
 }
