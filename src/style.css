@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input:nth-child(1) {
+  margin-top: 35%;
+}
+.form{
+                margin: 20px;
+}
+
+form {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 90px;
+  height: 350px;
+  background: rgb(20, 70, 114);
+  width: 300px;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 50px;
+}
+
+input[type="submit"] {
+                margin-right: 10px;
+                color:  rgb(20, 70, 114);
+                background-color:aliceblue;
+                border: none;
+                padding: 8px;
+                width: 80px;
+}
+input[type="reset"] {
+                color:  rgb(20, 70, 114);
+                background-color:aliceblue;
+                border: none;
+                padding: 8px;
+                width: 80px;
+}
